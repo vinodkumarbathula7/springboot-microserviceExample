@@ -15,7 +15,9 @@ import java.util.List; // code conflict vinod
 public class ProductController {
 
     @Autowired
-    private ProductService service; // created by Vinod
+
+    private ProductService service; // created by Vinod  test siva
+
 
     @PostMapping
     public Product addProduct(@RequestBody Product product) {
